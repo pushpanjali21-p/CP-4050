@@ -99,40 +99,45 @@ if __name__ == "__main__":
     solve()
 
 
+# WEEK 2 - BACKTRACKING (ALL IN ONE)
 
-# ---------- Assignment 1: Fibonacci using Memoization ----------
-# Input:
-# 10
-# Output:
-# 55
-
-# ---------- Assignment 2: 0/1 Knapsack ----------
-# Input:
-# 3 50
-# 60 10
-# 100 20
-# 120 30
-# Output:
-# 220
-
-# ---------- Assignment 3: Longest Common Subsequence (LCS) ----------
-# Input:
-# AGGTAB
-# GXTXAYB
-# Output:
-# 4
-
-# ---------- Assignment 4: Coin Change (Minimum Coins) ----------
-# Input:
-# 3
-# 1 3 4
-# 6
-# Output:
-# 2
-
-# ---------- Assignment 5: Matrix Chain Multiplication ----------
+# -------- Assignment 1: N-Queens --------
 # Input:
 # 4
-# 10 20 30 40
+# Output (One Valid):
+# . Q . .
+# . . . Q
+# Q . . .
+# . . Q .
+
+# -------- Assignment 2: String Permutations --------
+# Input:
+# ABC
 # Output:
-# 18000
+# ABC
+# ACB
+# BAC
+# BCA
+# CAB
+# CBA
+
+# -------- Assignment 3: Subset Sum --------
+# Input:
+# 5
+# 3 34 4 12 5
+# 9
+# Output:
+# True
+
+# -------- Assignment 4: Sudoku Solver --------
+# Input: 9x9 grid with 0 as empty
+# Output: Solved grid
+
+# -------- Assignment 5: Rat in a Maze --------
+# Input:
+# 4
+# 1 0 0 0
+# 1 1 0 1
+# 0 1 0 0
+# 1 1 1 1
+# Output: One valid path matrix
